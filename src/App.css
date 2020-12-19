@@ -1,0 +1,366 @@
+.App {
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+}
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/********** My styles **********/
+
+.container {
+  margin: auto;
+  padding: 0 10% 0 10%;
+}
+.background {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  height: 680px;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+.quote {
+  margin: 0 auto;
+  font-weight: 200;
+  font-style: italic;
+  text-align: center;
+  font-size: 150%;
+  opacity: 0.7;
+}
+@keyframes flip {
+  from {
+  }
+
+  to {
+    transition: linear 500ms;
+    transform: rotate3d(1, 0, 0, 360deg);
+  }
+}
+.quote {
+  animation-duration: 1.3s;
+  animation-name: flip;
+  animation-iteration-count: infinite;
+}
+.section {
+  margin: 0 auto;
+  font-size: xx-large;
+  padding: 150px 0 100px 0;
+}
+.border-1 {
+  border: 5px solid #f3bfb3;
+}
+.border-2 {
+  background-color: #d7e7a9;
+  display: inline;
+}
+.border-3 {
+  background-color: #e0f8f5;
+}
+/********* Jumbotron *********/
+
+.header {
+  height: 450px;
+  font-size: 300%;
+  padding: 150px 0 0 0;
+}
+.grid {
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 70% 30%;
+}
+.heading {
+  font-family: "Karla", sans-serif;
+  font-weight: 300;
+}
+.para {
+  font-family: "Karla", sans-serif;
+  font-weight: 200;
+  font-size: xx-large;
+  font-style: italic;
+}
+.profilePhoto {
+  width: auto;
+  height: 300px;
+  border-radius: 50%;
+  float: right;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.collegeName {
+  background-color: #a2e1db;
+}
+.collegeName:hover {
+  color: #a2e1db;
+  background-color: black;
+}
+.sde {
+  background-color: #f2afab;
+}
+.resume {
+  background-color: #d8b5ff;
+}
+.resume:hover {
+  background-color: black;
+  color: #d8b5ff;
+}
+/***** Item Styling *****/
+
+.item {
+  font-size: medium;
+  padding: 10px 10px 20px 10px;
+}
+.item-heading {
+  display: inline;
+  font-weight: 600;
+  background-color: #ccffff;
+}
+.item-description {
+  font-weight: 400;
+  font-style: italic;
+}
+.item-list {
+  list-style: none;
+  padding: 0;
+  font-weight: 300;
+  font-style: italic;
+}
+.item-listItem {
+  padding: 0;
+}
+.item-timePeriod {
+  opacity: 0.75;
+}
+/******* Education *********/
+
+.education {
+  padding-top: 150px;
+}
+.percentage {
+  font-weight: 500;
+}
+.flex-center-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+/******** Contacts **********/
+
+.contacts {
+  padding-bottom: 100px;
+}
+/********** Skills ***********/
+
+.skills {
+  line-height: 1.5;
+}
+.skill-category {
+  background-color: #ffccff;
+  display: inline;
+  font-weight: 500;
+  font-size: large;
+}
+.arrow {
+  width: 20px;
+  height: 14px;
+  padding-right: 10px;
+}
+.gridSkill {
+  font-size: large;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+/********** Project ************/
+
+.projects-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+.project {
+  box-shadow: inset 0 0 1px 1px #f3bfb3;
+  padding: 15px;
+  border-radius: 0 10% 0 10%;
+}
+.link {
+  color: #f3bfb3;
+}
+.projectName {
+  font-weight: 400;
+}
+.projectDescription {
+  font-weight: 200;
+  font-style: italic;
+  font-size: large;
+  word-break: break-word;
+}
+.technology {
+  display: flex;
+  align-items: center;
+  font-weight: 200;
+}
+.techName {
+  padding: 5px;
+  font-size: medium;
+  margin: 5px;
+}
+/*********** Extracurricular *************/
+
+.extra {
+  font-size: x-large;
+}
+.extracurricular-info {
+  font-weight: 200;
+  font-style: italic;
+}
+.task {
+  float: right;
+  color: #d7e7a9;
+  font-size: 60px;
+  transform: rotate(10deg);
+}
+.tennis h3:hover {
+  background-color: black;
+  color: #d7e7a9;
+}
+/**************** Progress Bar **********************/
+
+.progress-container {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 5px;
+  background: white;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 5px;
+  background-image: linear-gradient(to right, #ea8d8d, #a890fe);
+  width: 0%;
+}
+/********* Mail-Badge*******/
+
+.mail-container {
+  display: flex;
+  font-size: xx-large;
+  font-weight: 200;
+  font-style: italic;
+  background-image: url("./pattern.jpg");
+  background-repeat: round;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  font-family: "Dancing Script", cursive;
+}
+.mail-container:hover {
+  transform: scale(1.1, 1.1);
+}
+/*************** Footer **************/
+
+.footer {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 20px;
+  background-color: #eeeeee;
+}
+.social-container {
+  font-size: xx-large;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 20%;
+}
+.social {
+  color: #c6ac85;
+}
+.social:hover {
+  transform: scale(1.4);
+  transition: transformease 150ms;
+}
+.footer-2 {
+  font-weight: 400;
+  text-align: left;
+  padding-top: 10px;
+}
+.shift-right {
+  position: relative;
+  float: right;
+  right: 60px;
+  bottom: 100px;
+}
+.fa-heart {
+  color: #c6ac85;
+  font-size: x-large;
+}
+/******** Back To Top ***********/
+.scrollTop {
+  position: fixed;
+  width: 100%;
+  bottom: 100px;
+  right: -96%;
+  align-items: center;
+  height: 20px;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+}
+.scrollButton {
+  border: 3px solid darkcyan;
+  border-radius: 10%;
+  font-size: xx-large;
+  color: darkcyan;
+}
+
+.scrollTop:hover {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
