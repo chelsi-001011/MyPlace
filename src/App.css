@@ -237,6 +237,7 @@ a {
   display: flex;
   align-items: center;
   font-weight: 200;
+  flex-wrap: wrap;
 }
 .techName {
   padding: 5px;
@@ -428,6 +429,9 @@ a {
   .shift-right {
     bottom: 200px;
     right: 90px;
+  }
+  .scrollTop {
+    display: none;
   }
   .mail-container {
     width: 130px;
