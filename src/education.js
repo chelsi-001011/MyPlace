@@ -10,7 +10,7 @@ const Education = () =>{
         </ul>
       </div>
       <div className="col flex-center-end">
-        <p className="item-timePeriod">2019 - 2023 (Expected)</p>
+        <p className="item-timePeriod">2019 - 2023<br></br>(Expected)</p>
       </div>
     </div>
 

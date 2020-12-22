@@ -48,6 +48,7 @@
   position: absolute;
   top: 0;
   height: 680px;
+  width: 82%;
 }
 a {
   color: inherit;
@@ -111,6 +112,7 @@ a {
   font-weight: 200;
   font-size: xx-large;
   font-style: italic;
+  line-height: 1.2;
 }
 .profilePhoto {
   width: auto;
@@ -168,6 +170,7 @@ a {
 
 .education {
   padding-top: 150px;
+  font-size: xx-large;
 }
 .percentage {
   font-weight: 500;
@@ -186,6 +189,7 @@ a {
 
 .skills {
   line-height: 1.5;
+  font-size: xx-large;
 }
 .skill-category {
   background-color: #ffccff;
@@ -346,12 +350,16 @@ a {
   opacity: 0.5;
 }
 .scrollButton {
+  text-decoration: none;
   border: 3px solid darkcyan;
   border-radius: 10%;
   font-size: xx-large;
   color: darkcyan;
 }
-
+.scrollButton:active {
+  outline: none;
+  border: none;
+}
 .scrollTop:hover {
   opacity: 1;
 }
@@ -362,5 +370,103 @@ a {
   }
   100% {
     opacity: 0.5;
+  }
+}
+/******** Key Frames *********/
+@media only screen and (max-width: 1330px) {
+  .projects-container {
+    grid-template-columns: 50% 50%;
+  }
+  .project {
+    border-radius: 0;
+  }
+  .background {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  .quote {
+    display: none;
+  }
+  .jumbotron {
+    font-size: xx-large;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .profilePhoto {
+    /* float: none;
+    height: 250px; */
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .projects-container {
+    grid-template-columns: 100%;
+  }
+  .project {
+    margin: auto 10%;
+  }
+  .scrollTop {
+    right: -91%;
+  }
+  .sde {
+    line-height: 1.3;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .gridSkill {
+    grid-template-columns: 50% 50%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .jumboName {
+    /* padding-bottom: 200px; */
+  }
+  .shift-right {
+    bottom: 200px;
+    right: 90px;
+  }
+  .mail-container {
+    width: 130px;
+    height: 130px;
+  }
+  .basicIntro {
+    padding-bottom: 200px;
+    font-size: xx-large;
+  }
+  .jumbotron {
+    margin-top: -30%;
+  }
+  .background {
+    margin-top: -21%;
+  }
+  .responsiveHide {
+    display: none;
+  }
+  .responsiveGrid {
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .education {
+    margin-top: 150px;
+  }
+  .project {
+    margin: 0 3%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .shift-right {
+    bottom: 130px;
+    right: 0px;
+  }
+  .background {
+    width: 100%;
   }
 }
