@@ -13,7 +13,7 @@ const Extracurriculars = () => {
       </div>
       <div className="tennis">
         <h3 className="heading border-2"><a href="https://www.facebook.com/TennisClubIITG">GAME - SET - MATCH </a></h3>
-        <p className="extracurricular-info">Tennis has always been an important part of my life. Also a member of Girl's Sports Council.</p>
+        <p className="extracurricular-info">Tennis has always been an important part of my life.Currently I am the Tennis Club Secretary of the club.</p>
       </div>
     </section>
   );
