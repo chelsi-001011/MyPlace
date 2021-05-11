@@ -6,7 +6,7 @@ const Education = () =>{
         <h3 className="item-heading">Indian Institute of Technology, Guwahati</h3>
         <p className="item-description">B. Tech. Computer Science and Engineering</p>
         <ul className="item-list ">
-          <li className="item-listItem percentage">CGPA: 7.56</li>
+          <li className="item-listItem percentage">CGPA: 7.85</li>
         </ul>
       </div>
       <div className="col flex-center-end">
