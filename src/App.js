@@ -76,6 +76,7 @@ const ScrollTopArrowComponent = () => {
     </div>
   );
 };
+
 function App () {
   return (
   	<div>

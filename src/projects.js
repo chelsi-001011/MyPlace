@@ -25,8 +25,8 @@ const Projects = () =>{
       </div>
 
     <div className="project">
-        <h3 className="projectName">Alcheringa Website</h3>
-        <p className="projectDescription">Contributed to the website of largest cultural festival of NorthEast, as a part of the Web Operations Team.</p>
+        <h3 className="projectName">Techniche 2021 <a href="https:techniche.org" target="_blank" className="link"><i class="fas fa-link"></i></a></h3>
+        <p className="projectDescription">Contributed to the live website of the annual techno-management festival of IITG by updating and maintainingthe website. Also working on Techniche 2021 mobile application - Releasing soon :) </p>
         <div className="technology">
           <span className="techName border-1">Javascript</span>
           <span className="techName border-1">Django</span>

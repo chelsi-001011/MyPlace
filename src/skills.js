@@ -25,13 +25,13 @@ const Skills = () =>{
           <ul>
             <span className="skill-category">Miscellaneous</span>&#187;
             <li>git</li>
+            <li>React Native</li>
             <li>Android Programming</li>
           </ul>
           <ul>
-            <span className="skill-category">Operating Systems</span>&#187;
-            <li>MacOS</li>
-            <li>Linux</li>
-            <li>Windows</li>
+            <span className="skill-category">Database Management</span>&#187;
+            <li> Firebase</li>
+            <li>MySQL</li>
           </ul>
         </div>
       </div>
